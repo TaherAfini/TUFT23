@@ -1,0 +1,34 @@
+body {
+    align-items: center;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.list{
+    display: none;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ol{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+li {
+    font-size: 2.5rem;
+}
+
+button {
+    margin: 3rem auto;
+    display: block;
+    size: 2rem;
+    padding: 2% 1%;
+    font-size: 2rem;
+}
