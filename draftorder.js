@@ -13,7 +13,7 @@ let promise = false;
 
 const draft = async() => {
 
-    let captains = ['Burhanuddin Danish', 'Taha Lokhandwala', 'Ebraheem Raja', 'Ammar Zumkhawala', 'Ahmed Hussain', 'Mohammed Danish', 'Husain Udaipurwala', 'Hussain Bhagat', 'Mansoor Poonawala', 'Husain Attarwala', 'Taha Bhai Salim', 'Burhanuddin Bhai Tambawala']
+    let captains = ['Burhanuddin Danish', 'Taha Lokhandwala', 'Ebraheem Raja', 'Ammar Zumkhawala', 'Ahmed Hussain', 'Mohammed Danish', 'Husain Udaipurwala', 'Hussain Bhagat', 'Mansoor Poonawala', 'Husain Attarwala', 'Taha Salim', 'Burhanuddin Tambawala']
 
     let captainsLeft = [...captains]
     
