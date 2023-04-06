@@ -1,5 +1,6 @@
 $("#generate").click(() => {
     $("#generate").remove()
+    $("img").height($(window).height()*0.3);
     $(".left-list").css('visibility', 'visible')
     draft()
 })
@@ -31,7 +32,7 @@ const draft = async() => {
         } else {
             if(counter === 7) {
                 $(".left-list").css('display', 'inline-block')
-                $(".left-list").css('margin-left', '5%')
+                $(".left-list").css('margin-left', '15%')
                 $(".right-list").css('display', 'inline-block')
             }
             $(".right-list").append(captainName)
