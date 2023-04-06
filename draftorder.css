@@ -1,3 +1,7 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     align-items: center;
     background-color: #14ddb1;
@@ -6,13 +10,15 @@ body {
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
 
 h1 {
     font-size: 3rem;
     margin: 0 auto;
     width: fit-content;
+    font-weight: 700;
+    margin-top: 5%;
 }
 
 hr{
@@ -29,6 +35,7 @@ hr{
 h3 {
     font-size: 2rem;
     margin: 0;
+    font-weight: 400;
 }
 
 #generate {
@@ -59,14 +66,18 @@ h3 {
 .container {
     display: flex;
     height: 100vh;
+    flex-direction: row;
+    flex: 1 1 auto;
 }
 
 .left {
     flex: 1;
     margin-right: 20px;
     align-items: center;
+    flex-basis: 35px;
 }
 
 .right {
     flex: 1;
+    flex-basis: 60px;
 }
