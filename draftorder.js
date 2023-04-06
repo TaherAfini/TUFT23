@@ -1,6 +1,7 @@
-$("#generate").click(() => {
+$("#generate").click(async() => {
     $("#generate").remove()
-    $("img").height($(window).height()*0.3);
+    $("img").addClass("generated");
+    await new Promise(r => setTimeout(r, 2000))
     $(".left-list").css('visibility', 'visible')
     draft()
 })
