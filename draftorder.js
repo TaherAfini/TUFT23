@@ -1,12 +1,15 @@
 $("#generate").click(() => {
     $("#generate").remove()
     $(".list").css('display', 'block')
-    $("#next").css('display', 'block')
     draft()
 })
 
-$("#next").click(() => {
-    promise = true;
+$(document).keypress((e) => {
+    let key = (e.keyCode ? e.keyCode : e.which);
+    console.log("key: " + key);
+    if(key === 106) {
+        promise = true;
+    }
 })
 
 let promise = false;
